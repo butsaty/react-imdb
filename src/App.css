@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 50s linear;
+  height: 60px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 140px;
+  padding: 10px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.movie-details {
+  padding: 50px;
+}
+
+.main-menu--link {
+  color: orange;
+  margin: 5px;
+}
+
+.active {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  background:none!important;
+  color:dodgerblue;
+  border:none; 
+  padding:0!important;
+  margin-left: 5px;
+  font: inherit;
+  cursor: pointer;
+}
+button:hover {
+  text-decoration: underline;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

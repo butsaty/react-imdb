@@ -1,0 +1,16 @@
+.movie-poster {
+    margin-left: 20px;
+    margin-right: 15px;
+    float: left;
+    width: 400px;
+    height: 600px;
+}
+.movie-info {
+    width: auto;
+    margin: 15px;
+    max-width: 1600px;
+}
+
+.base-info {
+    text-align: left;
+}
